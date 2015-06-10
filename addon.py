@@ -2,8 +2,9 @@ import xbmcgui
 import xbmcplugin
 import xbmc
 import xbmcaddon
+import sys
 
-
+addon_handle = int(sys.argv[1])
 
 xbmcplugin.setContent(addon_handle, 'audio')
 
